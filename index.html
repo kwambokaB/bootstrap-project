@@ -43,8 +43,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                 <div class="col-12 col-sm align-self-center">
+                 <div class="col-12 col-sm-3 align-self-center">
                      <img src="img/logo.png" class="img-fluid">
+                 </div>
+                 <div class="col-12 col-sm-3 align-self-center">
+                 <a href="#reservation"<button class="btn btn-sm bg-primary text-white">Reserve Table </button></a>
                  </div>
             </div>
         </div>
@@ -55,6 +58,7 @@
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
+            <div class="col-12 col-sm-8 col-md-9">
              <div class="media">
                  <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza">
                  <div class="media-body">
@@ -66,6 +70,7 @@
                          Buffalo Paneer.</p>
                  </div>
              </div>
+             </div>
         </div>
 
 
@@ -73,18 +78,26 @@
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
+            <div class="col-12 col-sm-8 col-md-9">
+            <div class="media">
+                <div class="media-body">
+                    <h2 class="mt-0"><span class="badge badge-danger">NEW</span>
+                Weekend Grand Buffet</h2>
                 <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different
                     salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly
                     and soft drinks. All for just $19.99 per person </p>
-            </div>
+                    </div>
+                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Buffet">
+            
+        </div>
+        </div>
         </div>
 
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-first col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
+            <div class="col-12 col-sm-8 col-md-9">
               <div class="media">
                   <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto Somayya">
                   <div class="media-body">
@@ -97,8 +110,63 @@
                       </p>
                   </div>
               </div>
+              </div>
         </div>
-    </div>
+
+        <div class="row row-content" id="reservation">
+           <div class="col-12">
+                <div class="card">
+                    <h3 class="card-header">Reserve a Table</h3>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group row">
+                                <label for="numberid" class="col-md-2 col-form-label">Number of Reservations</label>
+                                <div class="col-md-10">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-primary active">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                            1
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option2" autocomplete="off"> 2
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option3" autocomplete="off"> 3
+                                        </label>
+                                         <label class="btn btn-primary">
+                                             <input type="radio" name="options" id="option3" autocomplete="off"> 4
+                                         </label>
+                                       
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option5" autocomplete="off"> 5
+                                        </label>
+                                        <label class="btn btn-primary">
+                                            <input type="radio" name="options" id="option6" autocomplete="off"> 6
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-5">
+                                    <input type="text" class="form-control" placeholder="Date">
+                                </div>
+                                <div class="col-5">
+                                    <input type="text" class="form-control" placeholder="Time">
+                                </div>
+                                </div>
+                        </form>
+                    </div>
+                    <div class="card-footer">
+                          <div class="form-group row">
+                              <div class="offset-md-2 col-md-10">
+                                  <button type="submit" class="btn btn-primary pull-right">Reserve</button>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        </div>
 
     <footer class="footer">
         <div class="container">
