@@ -41,7 +41,7 @@
         "grunt-contrib-imagemin": "^3.1.0",
         "grunt-contrib-uglify": "^4.0.1",
         "grunt-filerev": "^2.3.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "popper.js": "^1.15.0"
     }
 }
